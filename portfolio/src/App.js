@@ -10,6 +10,7 @@ function App() {
         <NavBar />
         <br/>
         <h3>{ title }</h3>
+        <h3> test </h3>
       </p>
     </div>
   );
