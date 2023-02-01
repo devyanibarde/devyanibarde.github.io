@@ -1,17 +1,13 @@
 import NavBar from './NavBar';
+import Profile from './Profile';
 
 function App() {
-  const title = 'Hello'
   return (
     <div className="App">
-      
-      <p>
-        <h1>Devyani's Portfolio</h1>
-        <NavBar />
-        <br/>
-        <h3>{ title }</h3>
-        <h3> test </h3>
-      </p>
+      <NavBar />
+      {/* <div className='content'> */}
+        <Profile />
+      {/* </div> */}
     </div>
   );
 }

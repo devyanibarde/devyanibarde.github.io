@@ -1,9 +1,11 @@
 const NavBar = () => {
     return ( 
         <nav className="navbar">
-            <h1>Nav Bar</h1>
             <div className="links">
-                <a href="#">Link</a>
+                <a href="#">Profile</a>
+                <a href="#">Education</a>
+                <a href="#">Experience</a>
+                <a href="#">Projects</a>
             </div>
         </nav>
      );
