@@ -2,10 +2,10 @@ const NavBar = () => {
     return ( 
         <nav className="navbar">
             <div className="links">
-                <a href="#">Profile</a>
-                <a href="#">Education</a>
-                <a href="#">Experience</a>
+                <a href="#profileid">Profile</a>
                 <a href="#">Projects</a>
+                <a href="#">Experience</a>
+                <a href="#">Education</a>
             </div>
         </nav>
      );

@@ -1,4 +1,5 @@
 import dev from './dev.jpeg';
+import res from './Resume.pdf'
 
 const Profile = () => {
     // var i = 0;
@@ -13,7 +14,7 @@ const Profile = () => {
     //     }
     // }
     return ( 
-        <div className="profile">
+        <div className="profile" id='profileid'>
             <div className="info">
                 <div className="propic">
                     <img src = {dev} width="200" height="200"></img>
@@ -26,9 +27,10 @@ const Profile = () => {
             <div className="outer">
                 <div className="social">
                     <p><a href='mailto:devyanibarde@gmail.com'>devyanibarde@gmail.com</a></p>
-                    <p><a href="https://www.linkedin.com/in/devyanibarde/" class="fa fa-linkedin"></a>
+                    <p><h1><a href="https://www.linkedin.com/in/devyanibarde/" class="fa fa-linkedin"></a>
                     &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://github.com/devyanibarde" class="fa fa-github"></a></p>
+                    <a href="https://github.com/devyanibarde" class="fa fa-github"></a></h1></p>
+                        <a href={res}><button>Resume</button></a>
                 </div>
             
                 <div className="about">

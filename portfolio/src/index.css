@@ -18,7 +18,7 @@ img {
 .profile {
   /* text-align: center; */
   max-width: 80%;
-  margin: 40px auto;
+  margin: 30px auto;
   padding: 20px;
   
 }
@@ -50,16 +50,18 @@ img {
 }
 
 .profile button {
-  padding: 25px;
-  width: 40%;
+  padding: 15px;
+  width: auto;
   border: 1px solid white;
   font-size: large;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
 }
 
 .profile button:hover {
-  box-shadow: 0 8px 16px 0 #003566, 0 17px 50px 0 #003566;
+  background-color: #64ffda;
+  opacity: 0.5;
+  color: #001a33;
+  border: 1px solid #001a33;
+  font-weight: bold;
 }
 
 .info, .skills, .outer {
