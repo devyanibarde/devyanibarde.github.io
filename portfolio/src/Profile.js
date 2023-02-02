@@ -2,17 +2,6 @@ import dev from './dev.jpeg';
 import res from './Resume.pdf'
 
 const Profile = () => {
-    // var i = 0;
-    // var txt = 'Lorem ipsum dummy text blabla.';
-    // var speed = 50;
-
-    // function typeWriter() {
-    //     if (i < txt.length) {
-    //         document.getElementById("intro").innerHTML += txt.charAt(i);
-    //         i++;
-    //         setTimeout(typeWriter, speed);
-    //     }
-    // }
     return ( 
         <div className="profile" id='profileid'>
             <div className="info">
@@ -37,8 +26,7 @@ const Profile = () => {
                     <h3>About Me:</h3>
                     <p>As a computer science professional with both a Bachelor's and Master's degree, I bring a well-rounded understanding of the field to my work as a web developer. With over a year of experience in the industry, I have honed my skills and developed a passion for coding. My combination of education and hands-on experience make me a valuable asset to any team, and my enthusiasm for the field drives me to continue learning and growing in my career.</p>
                     <h4>Skills:</h4>
-                    <p>
-                        <div className="skills">
+                    <div className="skills">
                         <div className="skill1">
                             <ul>
                                 <li>JavaScript</li>
@@ -57,16 +45,8 @@ const Profile = () => {
                             </ul>
                         </div>
                     </div>
-                </p>
             </div>
             </div>
-
-
-
-            <br /><br />
-            {/* <a href="https://www.google.com">
-                <button>Resume</button>
-            </a> */}
         </div>
      );
 }

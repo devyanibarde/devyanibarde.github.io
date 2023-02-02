@@ -103,6 +103,7 @@ img {
 
 ul {
   list-style: none;
+  margin-top: 5px;
 }
 
 ul li::before {
@@ -129,4 +130,39 @@ li {
 
 .social a:hover {
   color: #64ffda;
+}
+
+.foot {
+  font-size: small;
+  text-align: center;
+  color: slategrey;
+}
+
+.education {
+  margin-top: 80px;
+  margin-left: 15%;
+  margin-bottom: 80px;
+}
+
+.education h1 {
+  color: whitesmoke;
+  margin-bottom: 60px;
+}
+
+.edudiv {
+  padding: 15px;
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 60%;
+  box-shadow: 1px 3px 5px black;
+}
+
+.edudiv h3 {
+  color: #64ffda;
+}
+
+.deg {
+  color: whitesmoke;
+  font-style: italic;
 }
