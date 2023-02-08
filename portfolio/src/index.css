@@ -166,3 +166,27 @@ li {
   color: whitesmoke;
   font-style: italic;
 }
+
+.experience {
+  margin-top: 80px;
+  margin-left: 15%;
+  margin-bottom: 80px;
+}
+
+.experience h1 {
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+.expdiv {
+  padding: 15px;
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 70%;
+  box-shadow: 1px 3px 5px black;
+}
+
+.expdiv h3 {
+  color: #64ffda;
+}
