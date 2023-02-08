@@ -20,17 +20,20 @@ img {
   max-width: 80%;
   margin: 30px auto;
   padding: 20px;
+  margin-top: 100px;
   
 }
 
 .navbar {
   padding: 20px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  /* max-width: 600px; */
   margin: 0 auto;
-  margin-right: 20px;
   border-bottom: 1px solid #f2f2f2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 500px;
 }
 
 .navbar .links {
