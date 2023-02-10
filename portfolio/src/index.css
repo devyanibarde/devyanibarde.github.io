@@ -111,7 +111,7 @@ ul {
   margin-top: 5px;
 }
 
-.skills ul li::before {
+.skills ul li::before, .expdiv ul li::before {
   content: "\2022";
   color: #64ffda;
   font-weight: bold;
