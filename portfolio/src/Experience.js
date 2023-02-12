@@ -5,7 +5,7 @@ const Experience = () => {
     ]
     let desc = [
         {data: ['Improved website performance by implementing Asynchronous Network calls', 'Implemented complete Software Development Life Cycle (SDLC) including Design, Coding, Development, and Testing', 'Utilized CI/CD for faster and reliable deployment', 'Worked with technologies such as HTML5, CSS3, React.js, and JavaScript', 'Built user interfaces based on approved designs.', 'Experienced in Agile and Scrum methodologies', 'Contributed to the success of the company through hands-on approach and technical skills in web development.'], e_id: 0},
-        {data: ['Worked as a teaching assistant for front-end web development courses', 'Tutored students on various topics in front-end web development', 'Performed assistant teaching duties such as providing critical help, grading papers and assignments', 'Contributed to students&#64; learning and success through one-on-one tutoring and support.'], e_id: 1}
+        {data: ['Worked as a teaching assistant for front-end web development courses', 'Tutored students on various topics in front-end web development', 'Performed assistant teaching duties such as providing critical help, grading papers and assignments', 'Contributed to students\' learning and success through one-on-one tutoring and support.'], e_id: 1}
     ]
         
     
