@@ -15,6 +15,7 @@ const Projects = () => {
       ];
     return ( 
         <div className="projects" id="projects">
+            <br></br><br></br><br></br><br></br>
             <h1>My Projects:</h1>
             <Carousel autoPlay="True" interval={6000} centerMode="True" infiniteLoop="True">
             {proj.map((proj) => (

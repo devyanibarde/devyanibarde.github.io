@@ -8,6 +8,7 @@ const Education = () => {
 
     return ( 
         <div className="education" id='education'>
+            <br></br><br></br><br></br><br></br>
                 <h1>Universities I went to:</h1>
                 {edu.map((edu) => (
                     <div className="edudiv" key={edu.id}>
