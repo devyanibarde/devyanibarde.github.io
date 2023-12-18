@@ -193,11 +193,15 @@ li {
 
 .expdiv {
   padding: 15px;
-  margin-left: 70px;
-  margin-top: 20px;
+  /* margin-left: 70px; */
+  /* margin-top: 20px; */
   margin-bottom: 20px;
-  max-width: 70%;
+  max-width: 50%;
   box-shadow: 1px 3px 5px black;
+  /* margin-right: 40px; */
+  /* float: right; */
+  display: inline-block;
+  /* position: relative; */
 }
 
 .expdiv h3 {
@@ -274,4 +278,25 @@ li {
 
 .logo span {
   color: #64ffda;
+}
+
+.expTab {
+  padding: 15px;
+  /* margin-left: 70px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* width: 40%; */
+  box-shadow: 1px 3px 5px black;
+  /* float: left; */
+  /* position: fixed; */
+}
+
+.expTab h4 {
+  color: #64ffda;
+}
+
+.expRight {
+  float: left;
+  width: 30%;
+  display: inline-block;
 }
