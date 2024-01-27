@@ -70,7 +70,7 @@ const Projects = () => {
                             <table>
                                 <tr>
                                 {tech.data.map((item) => (
-                                    <td><ul><li key={item}>{item}</li></ul></td>
+                                    <td><ul><b><li key={item}>{item}</li></b></ul></td>
                                 ))}
                                 </tr>
                             </table>
