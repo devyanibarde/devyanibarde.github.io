@@ -80,6 +80,7 @@ img {
   color: #001a33;
   border: none;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .info, .skills, .outer, .navbar {
