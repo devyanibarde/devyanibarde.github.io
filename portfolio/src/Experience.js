@@ -78,7 +78,10 @@ const Experience = () => {
             </div>
             {exp.toReversed().map((exp) => (
                 <>
-                <div className="expdiv">
+                <div 
+                    className="expdiv"
+                    style={{display: (selectedExp === exp.id) ? "" : "none"}}
+                >
                     {(selectedExp === exp.id) &&
                     <>
                         <h3>{ exp.role } &#64; { exp.company }</h3>

@@ -194,14 +194,15 @@ li {
 .expdiv {
   padding: 15px;
   /* margin-left: 70px; */
-  /* margin-top: 20px; */
+  margin-top: 20px;
   margin-bottom: 20px;
   max-width: 50%;
   box-shadow: 1px 3px 5px black;
-  /* margin-right: 40px; */
+  margin-right: 40px;
   /* float: right; */
   display: inline-block;
-  /* position: relative; */
+  position: relative;
+  height: 50vh;
 }
 
 .expdiv h3 {
