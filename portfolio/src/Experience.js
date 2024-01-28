@@ -67,11 +67,20 @@ const Experience = () => {
         <div className="experience" id="experience">
             <br></br><br></br><br></br><br></br>
             <h1>Where I&apos;ve Worked:</h1>
-            <div className="expRight">
+            <div className = "expRight">
                 {exp.toReversed().map((exp) => (
                 <>
-                    <div className="expTab" key={exp.id} onClick= {() => handleClick(exp.id)}>
+                    <div 
+                        className = "expTab"
+                        key={exp.id}
+                        onClick= {() => handleClick(exp.id)}
+                    >
                         <h4>{ exp.company }</h4>
+                        
+                    </div>
+                    <div className={(exp.id === selectedExp) ? "ovetlapDivHide" : "overlapDiv"}
+                    key={exp.id}
+                    onClick= {() => handleClick(exp.id)}>
                     </div>
                 </>
                 ))}

@@ -1,12 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap'); */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Source+Code+Pro&display=swap');
 
 * {
   background-color: #001a33;
   color: #a8b2d1;
-  /* #64ffda */
 }
 
 img {
@@ -17,7 +14,6 @@ img {
 }
 
 .profile {
-  /* text-align: center; */
   max-width: 80%;
   margin: 30px auto;
   padding: 20px;
@@ -26,10 +22,7 @@ img {
 }
 
 .navbar {
-  /* padding: 20px; */
   display: flex;
-  /* align-items: center; */
-  /* margin: 0 auto; */
   border-bottom: 1px solid #f2f2f2;
   position: fixed;
   z-index: 3;
@@ -37,7 +30,6 @@ img {
   left: 0;
   width: 100%;
   font-family: 'Source Code Pro', monospace;
-  /* padding-left: 500px; */
   box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
   0px 2px 4px rgba(0,255,255,0.5), 
   0px 4px 8px rgba(0,255,255,0.5), 
@@ -45,12 +37,10 @@ img {
 }
 
 .navbar .links {
-  /* margin-left: 20%; */
   margin-right: 10vw;
   text-align: center;
   float: right;
   margin-top: 25px;
-  /* max-width: fit-content; */
 }
 
 .navbar .links a {
@@ -75,8 +65,6 @@ img {
 
 .profile button:hover {
   background-color: #64ffda;
-  /* box-shadow: 0 0 10px #64ffda; */
-  /* opacity: 0.5; */
   color: #001a33;
   border: none;
   font-weight: bold;
@@ -149,7 +137,6 @@ li {
 
 .social a:hover {
   color: #64ffda;
-  /* text-shadow: 0 0 10px #64ffda; */
 }
 
 .foot {
@@ -203,13 +190,11 @@ li {
 
 .expdiv {
   padding: 15px;
-  /* margin-left: 70px; */
   margin-top: 20px;
   margin-bottom: 20px;
   max-width: 50%;
   box-shadow: 1px 3px 5px black;
   margin-right: 40px;
-  /* float: right; */
   display: inline-block;
   position: relative;
   height: 50vh;
@@ -251,7 +236,6 @@ li {
 
 .gitproj {
   text-align: right;
-  /* margin-right: 10px; */
   font-size: 25px;
 }
 
@@ -298,20 +282,52 @@ li {
   color: #64ffda;
 }
 
-.expTab {
+.expTab{
   padding: 15px;
-  /* margin-left: 70px; */
   margin-top: 20px;
   margin-bottom: 20px;
-  /* width: 40%; */
+  width: 23vw;
   box-shadow: 1px 3px 5px black;
-  /* float: left; */
-  /* position: fixed; */
   cursor: pointer;
+  height: 40px;
 }
 
 .expTab h4 {
   color: #64ffda;
+}
+
+.expTabSelected {
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 1px 3px 5px black;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  height: 40px;
+  width: 23vw;
+}
+
+.expTabSelected h4 {
+  background-color: #f2f2f2;
+  color: #001a33;
+}
+
+.overlapDiv {
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #001a33;
+  opacity: 0.7;
+  z-index: 1;
+  position: absolute;
+  height: 40px;
+  width: 23vw;
+  margin-top: -90px;
+  cursor: pointer;
+}
+
+.ovetlapDivHide {
+  display: none;
 }
 
 .expRight {
