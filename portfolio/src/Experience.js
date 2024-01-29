@@ -71,16 +71,11 @@ const Experience = () => {
                 {exp.toReversed().map((exp) => (
                 <>
                     <div 
-                        className = "expTab"
+                        className = {(exp.id === selectedExp) ? "expTabSelected" : "expTab"}
                         key={exp.id}
                         onClick= {() => handleClick(exp.id)}
                     >
                         <h4>{ exp.company }</h4>
-                        
-                    </div>
-                    <div className={(exp.id === selectedExp) ? "ovetlapDivHide" : "overlapDiv"}
-                    key={exp.id}
-                    onClick= {() => handleClick(exp.id)}>
                     </div>
                 </>
                 ))}
