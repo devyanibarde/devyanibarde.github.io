@@ -198,6 +198,7 @@ li {
   display: inline-block;
   position: relative;
   height: 50vh;
+  overflow-y: scroll;
 }
 
 .expdiv h3 {
@@ -309,6 +310,45 @@ li {
 
 .expTabSelected h4 {
   color: #64ffda;
+}
+
+.expTab, .expTabSelected {
+  transition: all 0.3s;
+  position: relative;
+}
+
+.expTab h4, .expTabSelected h4 {
+  transition: all 0.3s;
+}
+
+.expTab::before, .expTabSelected::before {
+  content: '';
+  position: absolute;
+  transition: all 0.3s;
+  border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
+	transform: scale(0.1, 1);
+}
+
+.expTab:hover::before, .expTabSelected:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.expTab::after, .expTabSelected::after {
+  content: '';
+  position: absolute;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.expTab:hover::after, .expTabSelected:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
 }
 
 .expRight {
