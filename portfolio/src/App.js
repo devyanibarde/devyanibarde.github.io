@@ -7,11 +7,6 @@ import Projects from './Projects';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Profile />
-      <Projects />
-      <Experience />
-      <Education />
       <p className='foot'>Designed and Created by<br /> Devyani Barde</p>
     </div>
   );
