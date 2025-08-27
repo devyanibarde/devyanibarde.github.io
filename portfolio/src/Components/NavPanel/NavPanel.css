@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navpanel-outer {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100%;
+}
+
+.navpanel-details {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 1rem;
+    align-items: center;
+}
+
+.navpanel-profile-pic {
+	margin-bottom: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background: linear-gradient(45deg,
+            #f9cb58 0%,
+            #f59e4d 25%,
+            #d26c3c 50%,
+            #cc2366 75%,
+            #b41080 100%);
+    padding: 8px;
+    border-radius: 50%;
+    width: 180px;
+	height: 180px;
+}
+
+.navpanel-profile-img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 4px solid #f9f9f9;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navpanel-name {
+	font-size: 1.3rem;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 0.5rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.navpanel-description {
+	font-size: 1rem;
+	color: #817f7f;
+	text-align: center;
+	margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navpanel-personal-details {
+	margin-bottom: 1rem;
+}
+
+.navpanel-social-media {
+	display: flex;
+	flex-direction: row;
+	gap: 0;
+	align-items: stretch;
+}
+
+.navpanel-social-sub {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem;
+	/* background: #eaeaea; */
+	border-radius: 6px;
+	position: relative;
+}
+
+.navpanel-social-sub:not(:last-child)::after {
+	content: "";
+	position: absolute;
+	top: 20%;
+	right: 0;
+	width: 1px;
+	height: 60%;
+	background: #d3d3d3;
+}
+
+.social-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 0.3rem;
+}
+
+.social-icon svg {
+  font-size: 2rem;
+  color: #a4a3a3; /* Default icon color */
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Apply Instagram gradient on hover */
+.social-icon:hover svg {
+  background: linear-gradient(
+    45deg,
+    #f9cb58 0%,
+    #f59e4d 25%,
+    #d26c3c 50%,
+    #cc2366 75%,
+    #b41080 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
+.social-name {
+	color: #545353;
+	font-weight: 100;
+	font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navpanel-social-email,
+.navpanel-social-linkedin,
+.navpanel-social-github,
+.navpanel-social-resume {
+	flex: 1;
+	text-align: center;
+	padding: 0.5rem;
+	background: #eaeaea;
+	border-radius: 6px;
+}
+
+.navpanel-navigation-options {
+	flex: 1;
+	padding: 1rem 1rem;
+}
+
+.navpanel-nav-item {
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+	padding: 0.7rem 1rem;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.navpanel-nav-item:hover {
+	background: #f5f5f5;
+	border-right: 5px solid #cc2366;
+}
+
+.navpanel-nav-item:hover .navpanel-nav-icon svg {
+	color: #cc2366;
+}
+
+.navpanel-nav-item:hover .navpanel-nav-name {
+	color: #cc2366;
+}
+
+.navpanel-nav-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navpanel-nav-icon svg {
+	font-size: 1.5rem;
+	color: #817f7f;
+}
+
+.navpanel-nav-name {
+	font-size: 1.08rem;
+	color: #333;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
