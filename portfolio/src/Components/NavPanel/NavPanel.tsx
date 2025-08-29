@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { MY_NAME, MY_DESCRIPTION, MY_SOCIALS, MY_NAV_ITEMS } from '../../Constants/Common';
 import './NavPanel.css';
+import { NavPanelProps } from '../../Types/ComponentProps';
 
-const NavPanel = () => {
+const NavPanel = ({ selectedNav, setSelectedNav }: NavPanelProps) => {
     const [hoveredIcon, setHoveredIcon] = useState<string | null>(null);
 
     return (
@@ -47,9 +48,13 @@ const NavPanel = () => {
             </div>
             <div className="navpanel-navigation-options">
                 {MY_NAV_ITEMS.map((item: any) => (
-                    <div className="navpanel-nav-item" key={item.name}>
-                        <span className="navpanel-nav-icon"><item.icon /></span>
-                        <span className="navpanel-nav-name">{item.name}</span>
+                    <div
+                        className={`navpanel-nav-item${selectedNav === item.name ? ' navpanel-nav-item-selected' : ''}`}
+                        key={item.name}
+                        onClick={() => setSelectedNav(item.name)}
+                    >
+                        <span className={`${selectedNav === item.name ? ' navpanel-nav-icon-selected' : 'navpanel-nav-icon'}`}><item.icon /></span>
+                        <span className={`${selectedNav === item.name ? ' navpanel-nav-name-selected' : 'navpanel-nav-name'}`}>{item.name}</span>
                     </div>
                 ))}
             </div>

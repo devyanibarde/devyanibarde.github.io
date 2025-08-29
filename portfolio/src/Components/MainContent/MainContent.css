@@ -1,0 +1,19 @@
+
+.maincontent-outer {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+    padding-left: 50px;
+}
+
+.maincontent-stories {
+	height: 150px;
+	white-space: nowrap;
+	padding: 1rem 0.5rem;
+}
+
+.maincontent-feed {
+	flex: 1;
+	overflow-y: auto;
+	padding: 1rem 0.5rem;
+}

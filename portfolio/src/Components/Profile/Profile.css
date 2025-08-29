@@ -1,0 +1,69 @@
+.profile-outer {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 2rem 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+}
+
+.profile-section {
+	margin-bottom: 1.5rem;
+}
+
+.profile-subheading {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #cc2366;
+	margin-bottom: 0.7rem;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+.profile-description {
+	font-size: 1.08rem;
+	color: #444;
+	line-height: 1.7;
+	margin-bottom: 0.5rem;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+.profile-skills {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.2rem;
+}
+
+.profile-skill-card {
+	background: #f9f9f9;
+	border-radius: 10px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+	padding: 1rem 1.2rem;
+	display: flex;
+	align-items: center;
+	gap: 0.7rem;
+	min-width: 120px;
+	font-family: 'Roboto', Arial, sans-serif;
+	transition: box-shadow 0.2s;
+}
+
+.profile-skill-card:hover {
+	box-shadow: 0 4px 16px rgba(204,35,102,0.15);
+}
+
+.profile-skill-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile-skill-icon svg {
+	font-size: 2rem;
+	color: #cc2366;
+}
+
+.profile-skill-name {
+	font-size: 1.08rem;
+	color: #333;
+	font-weight: 500;
+}

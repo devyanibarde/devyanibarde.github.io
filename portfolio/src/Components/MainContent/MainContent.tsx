@@ -1,9 +1,24 @@
-const MainContent = () => {
+import './MainContent.css';
+import Stories from '../Stories/Stories';
+import { MainContentProps } from '../../Types/ComponentProps';
+import Profile from '../Profile/Profile';
+
+const MainContent = ({ selectedNav }: MainContentProps) => {
     return ( 
-        <div className="main-content">
-            {/* Main content goes here */}
-            <h1>Welcome to My Portfolio</h1>
-            <p>This is the main content area.</p>
+        <div className="maincontent-outer">
+            <div className="maincontent-stories">
+                <Stories />
+            </div>
+            <div className="maincontent-feed">
+                <div className="common-title">{selectedNav}</div>
+                <div className="feed">
+                    {selectedNav === 'Profile' ? (
+                        <Profile />
+                    ) : (
+                        <div>Other Content</div>
+                    )}
+                </div>
+            </div>
         </div>
      );
 }

@@ -1,0 +1,41 @@
+.stories-outer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-title {
+    width: 100%;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.common-title {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #222;
+    text-align: left;
+    letter-spacing: 0.01em;
+    background: transparent;
+    border: none;
+}
+
+.watch-all {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    color: #222;
+}
+
+.show-stories {
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: -webkit-fill-available;
+    display: flex;
+    flex-direction: row;
+}
