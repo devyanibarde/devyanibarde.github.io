@@ -12,3 +12,8 @@ export interface StoryItemProps {
     name: string;
     record: any;
 }
+
+export interface FeedCardProps {
+    type: 'Projects' | 'Experience' | 'Education';
+    record: any;
+}

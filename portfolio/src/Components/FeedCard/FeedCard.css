@@ -1,0 +1,135 @@
+.feedcard-desc-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.98rem;
+  color: #444;
+}
+
+.feedcard-project-desc {
+  color: #595757;
+  font-size: 1.01rem;
+  font-weight: 250;
+  margin-bottom: 6px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.feedcard-desc-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 4px 12px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.feedcard-desc-row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 6px;
+}
+
+.feedcard-desc-key {
+  font-weight: 600;
+  color: #cc2366;
+  margin-right: 8px;
+  min-width: 90px;
+  font-size: 0.98rem;
+}
+
+.feedcard-desc-value {
+  color: #444;
+  font-size: 0.98rem;
+  word-break: break-word;
+}
+.feedcard-outer {
+  /* width: 350px; */
+  width: 100%;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  /* display: flex;
+  flex-direction: column; */
+
+  break-inside: avoid;
+  margin-bottom: 20px;
+}
+.education-feed .feedcard-outer {
+  width: 100%;
+}
+
+.feedcard-visual {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  border-bottom: 1px solid #eee;
+}
+
+.feedcard-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedcard-options {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  background: #fafafa;
+  height: 30px;
+}
+
+.feedcard-option-icon {
+  cursor: pointer;
+}
+
+.feedcard-option-icon svg {
+  font-size: 1.7rem;
+  transition: transform 0.3s ease, fill 0.3s ease;
+  transform-origin: center;
+  fill: #444;
+}
+
+.feedcard-option-icon:hover svg {
+  transform: scale(1.4);
+  fill: #b41080;
+}
+
+.feedcard-description {
+  width: 100%;
+  padding: 0.7rem 0.7rem 1rem 0.7rem;
+  font-size: 1rem;
+  color: #444;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.feedcard-name {
+  font-weight: 700;
+  font-size: 1.08rem;
+  color: #222;
+  margin-bottom: 6px;
+  font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+}
+
+.feedcard-dates {
+  color: #888;
+  font-size: 0.98rem;
+  margin-bottom: 6px;
+}
+
+.feedcard-desc-gray {
+  color: #666;
+}
+
+.feedcard-desc-list-gray {
+  color: #888;
+}
+
+.feedcard-desc-list-item-gray {
+  color: #888;
+  font-weight: 200;
+}
