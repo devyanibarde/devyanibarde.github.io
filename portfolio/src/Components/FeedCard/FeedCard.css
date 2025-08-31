@@ -51,6 +51,17 @@
 
   break-inside: avoid;
   margin-bottom: 20px;
+  transition: box-shadow 0.25s, transform 0.18s;
+}
+
+.feedcard-clickable {
+  cursor: pointer;
+}
+
+.feedcard-clickable:hover {
+  box-shadow: 0 4px 24px rgba(125, 121, 123, 0.18), 0 2px 12px rgba(0,0,0,0.10);
+  transform: translateY(-4px) scale(1.03);
+  /* border: 1.5px solid #cc2366; */
 }
 .education-feed .feedcard-outer {
   width: 100%;
@@ -64,6 +75,12 @@
   justify-content: center;
   background: #f5f5f5;
   border-bottom: 1px solid #eee;
+}
+
+.feedcard-visual-img {
+  width: 100%;
+  max-height: 200px;
+  /* object-fit: cover; */
 }
 
 .feedcard-bottom {
@@ -87,6 +104,54 @@
   cursor: pointer;
 }
 
+.feedcard-heart-stack {
+  position: relative;
+  display: inline-block;
+}
+
+.feedcard-heart-animate {
+  animation: heartUpFade 0.8s cubic-bezier(0.4,0,0.2,1);
+}
+
+.feedcard-heart-animate-red {
+  animation: heartUpFadeRed 0.8s cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes heartUpFade {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    color: #e53935;
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-20px) scale(1.9);
+    color: #e53935;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-40px) scale(1.1);
+    color: #e53935;
+  }
+}
+
+@keyframes heartUpFadeRed {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    color: #e53935;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-80px) scale(1.1);
+    color: #e53935;
+  }
+}
+
+.feedcard-option {
+    cursor: pointer;
+}
+
 .feedcard-option-icon svg {
   font-size: 1.7rem;
   transition: transform 0.3s ease, fill 0.3s ease;
@@ -94,9 +159,21 @@
   fill: #444;
 }
 
+.feedcard-option-icon-heart {
+font-size: 1.7rem;
+  transition: transform 0.3s ease, fill 0.3s ease;
+  transform-origin: center;
+  fill: #e53935;
+}
+
 .feedcard-option-icon:hover svg {
   transform: scale(1.4);
-  fill: #b41080;
+  fill: linear-gradient(45deg,
+            #f9cb58 0%,
+            #f59e4d 25%,
+            #d26c3c 50%,
+            #cc2366 75%,
+            #b41080 100%);
 }
 
 .feedcard-description {

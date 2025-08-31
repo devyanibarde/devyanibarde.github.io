@@ -17,6 +17,7 @@ import GradientGitHubIcon from '../Assets/Icons/GradientGitHubIcon';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import { PiSunglassesFill } from "react-icons/pi";
 import { FaCode } from "react-icons/fa";
+// import facialImageRecognition from '../Assets/Images/FacialEmotionRecognition.png';
 
 export const MY_NAME = "Devyani Barde";
 
@@ -84,7 +85,8 @@ export const EDUCATION = [
         Major: 'Computer Science',
         StartDate: 'January 2021',
         EndDate: 'December 2022',
-        icon: MenuBookIcon
+        icon: MenuBookIcon,
+        visual: require('../Assets/Images/uncc.png')
     },
     {
         name: 'Sant Gadge Baba Amravati University',
@@ -92,7 +94,8 @@ export const EDUCATION = [
         Major: 'Computer Science and Engineering',
         StartDate: 'August 2015',
         EndDate: 'October 2019',
-        icon: MenuBookIcon
+        icon: MenuBookIcon,
+        visual: require('../Assets/Images/sgbau.png')
     }
 ];
 
@@ -109,7 +112,8 @@ export const WORK_EXPERIENCE = [
             'Familiarity with popular Java frameworks such as Spring Boot for rapid application development.',
             'Contributed to code reviews, following best practices to enhance code quality and maintainability.'
         ],
-        icon: PiSunglassesFill
+        icon: PiSunglassesFill,
+        visual: require('../Assets/Images/dataeconomy.png')
     },
     {
         name: 'University of North Carolina at Charlotte',
@@ -122,24 +126,25 @@ export const WORK_EXPERIENCE = [
             'Performed assistant teaching duties such as providing critical help, grading papers and assignments',
             'Contributed to students\' learning and success through one-on-one tutoring and support.'
         ],
-        icon: PiSunglassesFill
+        icon: PiSunglassesFill,
+        visual: require('../Assets/Images/uncc.png')
     },
-    {
-        name: 'Drishti Software Solutions',
-        Role: 'Web Developer',
-        StartDate: 'January 2020',
-        EndDate: 'December 2020',
-        Description: [
-            'Improved website performance by implementing Asynchronous Network calls',
-            'Implemented complete Software Development Life Cycle (SDLC) including Design, Coding, Development, and Testing',
-            'Utilized CI/CD for faster and reliable deployment',
-            'Worked with technologies such as HTML5, CSS3, React.js, and JavaScript',
-            'Built user interfaces based on approved designs.',
-            'Experienced in Agile and Scrum methodologies',
-            'Contributed to the success of the company through hands-on approach and technical skills in web development.'
-        ],
-        icon: PiSunglassesFill
-    }
+    // {
+    //     name: 'Drishti Software Solutions',
+    //     Role: 'Web Developer',
+    //     StartDate: 'January 2020',
+    //     EndDate: 'December 2020',
+    //     Description: [
+    //         'Improved website performance by implementing Asynchronous Network calls',
+    //         'Implemented complete Software Development Life Cycle (SDLC) including Design, Coding, Development, and Testing',
+    //         'Utilized CI/CD for faster and reliable deployment',
+    //         'Worked with technologies such as HTML5, CSS3, React.js, and JavaScript',
+    //         'Built user interfaces based on approved designs.',
+    //         'Experienced in Agile and Scrum methodologies',
+    //         'Contributed to the success of the company through hands-on approach and technical skills in web development.'
+    //     ],
+    //     icon: PiSunglassesFill
+    // }
 ];
 
 export const PROJECTS = [
@@ -148,27 +153,31 @@ export const PROJECTS = [
         gitlink: 'https://github.com/devyanibarde/FacialEmotionRecognition',
         Description: 'A computer visison based machine learning model is developed to detect seven different emotions in any given facial image.',
         Technologies: ['Python', 'Keras', 'Jupyter', 'Matplotlib'],
-        icon: FaCode
+        icon: FaCode,
+        visual: require('../Assets/Images/facialEmotionRecognition.png')
     },
     {
         name: 'Market',
         gitlink: 'https://github.com/devyanibarde/Market',
         Description: 'A web portal for online purchases, created with Django framework.',
         Technologies: ['Django', 'Python', 'JavaScript', 'HTML', 'CSS'],
-        icon: FaCode
+        icon: FaCode,
+        visual: require('../Assets/Images/market.png')
     },
     {
         name: 'Plant Pathology',
         gitlink: 'https://github.com/devyanibarde/PlantPathology',
         Description: 'Machine learning-based model to accurately classify a given leaf image from the test dataset to a particular disease category, and to identify an individual disease from multiple disease symptoms on a single leaf image.',
         Technologies: ['Python', 'TensorFlow', 'Keras', 'OpenCV'],
-        icon: FaCode
+        icon: FaCode,
+        visual: require('../Assets/Images/plantPathology.png')
     },
     {
         name: 'Identification of Meritorious Students',
         gitlink: 'https://github.com/devyanibarde/IoMS',
         Description: 'A web portal for schools to manage student data.',
         Technologies: ['Java', 'HTML', 'CSS', 'MySQL'],
-        icon: FaCode
+        icon: FaCode,
+        visual: require('../Assets/Images/ioms.png')
     },
 ]

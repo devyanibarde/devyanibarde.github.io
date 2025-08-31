@@ -13,17 +13,6 @@
     flex-direction: row;
 }
 
-.common-title {
-    font-family: 'Roboto', Arial, sans-serif;
-    font-size: 1.35rem;
-    font-weight: 700;
-    color: #222;
-    text-align: left;
-    letter-spacing: 0.01em;
-    background: transparent;
-    border: none;
-}
-
 .watch-all {
     font-family: 'Roboto', Arial, sans-serif;
     font-size: .875rem;
