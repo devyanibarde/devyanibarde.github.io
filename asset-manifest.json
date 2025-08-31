@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.34edb57c.css",
-    "main.js": "/static/js/main.cbaef444.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/static/css/main.de2d1117.css",
+    "main.js": "/static/js/main.8f76570a.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/plantPathology.png": "/static/media/plantPathology.fead90b54be3efa2a04e.png",
+    "static/media/ioms.png": "/static/media/ioms.6a216f42fbfd2019013e.png",
+    "static/media/market.png": "/static/media/market.d3021cae5623400b9cde.png",
+    "static/media/facialEmotionRecognition.png": "/static/media/facialEmotionRecognition.e08d922902b646e11fb8.png",
     "static/media/dev.jpeg": "/static/media/dev.70ae9d99b042188a9636.jpeg",
-    "static/media/Resume.pdf": "/static/media/Resume.3094a15517979b83b1af.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.a8895d08ac389f728983.pdf",
+    "static/media/sgbau.png": "/static/media/sgbau.1e725961d12683484546.png",
+    "static/media/uncc.png": "/static/media/uncc.d211b25cc1b57277bd2d.png",
     "index.html": "/index.html",
-    "main.34edb57c.css.map": "/static/css/main.34edb57c.css.map",
-    "main.cbaef444.js.map": "/static/js/main.cbaef444.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.de2d1117.css.map": "/static/css/main.de2d1117.css.map",
+    "main.8f76570a.js.map": "/static/js/main.8f76570a.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34edb57c.css",
-    "static/js/main.cbaef444.js"
+    "static/css/main.de2d1117.css",
+    "static/js/main.8f76570a.js"
   ]
 }
